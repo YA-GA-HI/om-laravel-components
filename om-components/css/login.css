@@ -1,0 +1,127 @@
+
+.form{
+    display: block;
+  }
+  
+  
+  .input-form{
+    width: 100%;
+    padding:5px 0px;
+    margin: 32px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .radio-form{
+    width: 100%;
+    padding:2px 20%;
+    color: var(--color);
+    margin: 2px 0px;
+  }
+  .input-form > input , .input-form > textarea{
+    background: var(--hover-color);
+    padding:10px 6px;
+    border:0px solid transparent;
+    font-size: 19px;
+    width: 300px;
+    border-radius: 3px;
+    color: var(--color) ;
+  }
+  
+  .input-form > input::placeholder{
+    color: var(--placeholder);
+  }
+  
+  .input-form > .error{
+    color: var(--danger) ;
+    width: 300px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .form > .form-submit{
+    width: 300px;
+    padding:7px 6px;
+    font-size: 20px;
+    margin:13px 100px ;
+    border-radius: 10px;
+    background: var(--primary);
+    color: var(--color);
+  }
+  
+  .form > .other-options{
+    width: 100%;
+    text-align: center;
+    color: var(--primary);
+  }
+  
+  .form > .other-options > a{
+    color: var(--primary);
+    font-weight: 800;
+    text-decoration: underline;
+  }
+  
+  @media ( max-width:620px ) {
+  
+    .input-form > input , .input-form > textarea{
+      font-size: 17px;
+      width: 80%;
+    }
+  
+    .form .form-submit{
+      width: 80%;
+      font-size: 19px;
+      margin:13px 10% ;
+    }
+  
+    .radio-form{
+      padding:2px 10%;
+    }
+  
+  }
+  
+  /********************************
+  --Login
+  ********************************/
+  #login{
+    background: var(--hover-color);
+    position: relative;
+    display: block;
+    min-height: 100vh;
+    padding:100px 0px;
+  }
+  
+  #form{
+    border-radius: 4%;
+    padding:50px 0px;
+    margin: 0 auto;
+    width: 500px;
+    background: var(--bg);
+    border: 1px solid var(--hover-color);
+    box-shadow: 4px 6px 12px var(--hover-color);
+  }
+  
+  #form img{
+    height: 65px;
+    display: block;
+    margin-bottom: 30px;
+  }
+  
+  @media ( max-width:620px ) {
+  
+    #login{
+      padding:50px 0px;
+    }
+  
+    #form{
+      padding:40px 0px;
+      width: 97%;
+    }
+  
+    #form img{
+      height: 50px;
+    }
+  
+  }

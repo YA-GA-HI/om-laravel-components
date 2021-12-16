@@ -1,0 +1,11 @@
+:root {
+  --bg: #171717;
+  --color:white;
+  --hover-color:#1E293B;
+  --primary: #2563EB;
+  --secondary : #6D28D9;
+  --danger :#EF4444 ;
+  --placeholder : #94A3B8;
+  --success:#059669;
+  --gray: white; 
+}
